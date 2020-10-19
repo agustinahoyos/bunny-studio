@@ -5,7 +5,7 @@ const request = require('request');
 //inject users
 
 const user1 = {
-    "name": "Bugs Bunny"
+    "name": "Spider Man"
     
 };
 const user2 = {
@@ -47,21 +47,21 @@ request.post({
 
 
 const task1 = {
-    "description": "Eat carrots",
+    "description": "Find enemies",
     "state": "done",
     "userid": "1"
     
 };
 
 const task2 = {
-    "description": "Say what's up Doc?",
+    "description": "Get weapon",
     "state": "to do",
     "userid": "1"
     
 };
 
 const task3 = {
-    "description": "Kill enemies",
+    "description": "Eat",
     "state": "done",
     "userid": "2"
     
